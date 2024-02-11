@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { Link } from "react-router-dom";
-import Rating from "../Home/Rating";
-
+import Rtaing from "../Home/Rtaing";
 
 
 
@@ -38,7 +37,7 @@ const ProductCards = ({ products, GridList }) => {
                 <Link to={`/shop/${product.id}`}>{product.name}</Link>
               </h5>
               <p className="productRating">
-                <Rating/>
+                <Rtaing/>
               </p>
               <h6>${product.price}</h6>
             </div>
@@ -63,7 +62,7 @@ const ProductCards = ({ products, GridList }) => {
             <div className="product-content">
             <Link to={`/shop/${product.id}`}>{product.name}</Link>
               <p className="productRating">
-                <Rating/>
+                <Rtaing/>
                 
               </p>
               <h6>${product.price}</h6>
