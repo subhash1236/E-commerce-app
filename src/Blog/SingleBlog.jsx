@@ -9,7 +9,7 @@ const socialList = [
   {
     link: "#",
     iconName: "icofont-facebook",
-    className: "facebook",
+    className: "faeebook",
   },
   {
     link: "#",
